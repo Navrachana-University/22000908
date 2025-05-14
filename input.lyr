@@ -1,0 +1,12 @@
+SET a 8;
+SET b 4;
+SAY "Hello, Lyricslang World!";
+SET years 15;
+SAY years;
+SET total a + b;
+SAY total;
+IFY a > b {
+    SAY 1;
+} NOPE {
+    SAY 0;
+} DONE
